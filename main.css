@@ -1,0 +1,47 @@
+body{
+    background-color: chocolate;
+    margin: 0;
+}
+
+.header{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    color: chocolate;
+}
+
+.Math{
+    color:chocolate;
+    padding: 50px;
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 15%;
+    background-color: black;
+    text-align: center;
+
+}
+
+.Hangman{
+    color:chocolate;
+    width: 120px;
+    height: 80px;
+    padding: 50px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 70%;
+    background-color: black;
+    text-align: center;
+}
+
+#matrix{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-color: blue;
+    display: block;
+}

@@ -1,0 +1,14 @@
+body{
+    background-color:chocolate;
+}
+#game{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+    display: block;
+    font-size: 50px;
+    
+
+}

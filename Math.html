@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Math</title>
+<link rel="stylesheet" type="text/css" href="math.css">
+</head>
+<body>
+    <p id="game">
+    </p>
+    <p>Score: </p>
+    <p id="score"> </p>
+        <form >Answer:
+                <input id="answer" type="number" name="Answer" >
+        </form>
+
+        <button id="submit" onclick="checkFunction()">Submit</button>
+        <button id="End" onclick="location.href = 'main.html';">End game</button>
+
+        <script type="text/javascript" src="math.js"></script>
+        <script>
+                document.getElementById("game").innerHTML = createEquation();
+                </script>
+                <script>
+                var t = document.getElementById("answer");
+                t.addEventListener("keydown", function(event){
+                    if(event.keyCode == 13){
+                        event.preventDefault();
+                        document.getElementById("submit").click();
+                    }
+                });</script>
+</body>
+
+
+
+
+
+
+
+</html>
